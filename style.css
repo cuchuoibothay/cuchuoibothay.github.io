@@ -25,3 +25,38 @@ nav.navbar.navbar-light.bg-faded {
     height: 100px;
 } 
 
+
+@media (max-width: 576px){
+    * {}
+
+    li.nav-item {
+        float: none!important;
+        display: inline;
+    }
+
+    ul.nav.navbar-nav.float-xs-right {
+        text-align: center;
+        background: white;
+        margin: 0;
+        padding: 0;
+        width: 104%;
+        padding: 10px 34px;
+        border-top: 1px solid #d8d8d8;
+    }
+
+    li.nav-item {
+        display: inline!important;
+        margin: 0 0;
+    }
+
+    a.nav-link {
+        line-height: 27px;
+        display: inline!important;
+    }
+
+    a.navbar-brand {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
