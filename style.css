@@ -135,6 +135,11 @@ h2.tieudecap2 {
 @media (max-width: 576px){
     * {}
 
+h2.tieudecap2.text-sm-left.text-xs-center {
+    margin-top: 25px;
+}
+
+
 .tt img {
     width: 203px;
     margin-top: 108px;
